@@ -6,6 +6,7 @@ on:
       - develop
       - master
       - main
+      - release/*
   pull_request:
     branches:
       - main
@@ -13,7 +14,7 @@ on:
   workflow_dispatch:
 
 env:
-  FILE_NAME: "GithubLatexTemplate"
+  FILE_NAME: "ReleaseFlowProposal"
 
 jobs:
   build-pdf:

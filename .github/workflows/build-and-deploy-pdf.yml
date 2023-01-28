@@ -2,13 +2,12 @@ name: Build and Deploy PDF
 
 on:
   push:
-    branches:
-      - main
-      - master
+    tags:
+      - v*
   workflow_dispatch:
 
 env:
-  FILE_NAME: "GithubLatexTemplate"
+  FILE_NAME: "ReleaseFlowProposal"
 
 jobs:
   build-pdf:
