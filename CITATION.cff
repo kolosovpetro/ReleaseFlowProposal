@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: LaTeX Template for Github
+title: Release Flow Proposal
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -15,5 +15,5 @@ authors:
 identifiers:
   - type: url
     value: >-
-      https://github.com/kolosovpetro/github-latex-template
-    description: LaTeX Template for Github Source files
+      https://github.com/kolosovpetro/ReleaseFlowProposal
+    description: In this document software product release process is proposed and discussed
