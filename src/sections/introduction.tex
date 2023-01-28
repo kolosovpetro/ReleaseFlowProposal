@@ -19,12 +19,16 @@ Below picture shows main idea of GitHub flow itself
     \item \textbf{Release/v*} -- branched from master and ready to be released, CD pipeline itself is triggered
     by push tag event from this branch.
     It is long-living branch used to support particular release.
-    \item \textbf{Hotfix} -- branch is created from the latest release/v* branch.
+    \item \textbf{Hotfix} -- branch is created from the latest deployed unit where error occurs,
+    for example \texttt{release/v*} branch.
+    Hotfixes are not stick to releases, they may be necessary in any deployed unit like DEV, QA environments,
+    depends on where error occurs.
     This branch contains hotfix that should be deployed as soon as possible.
     In case of hotfix branch, release to be done directly from it.
     It means that after hotfix is finished new tag with patch increment to be created and pushed,
     triggering CI/CD and deployment of hotfix to production.
 \end{itemize}
+
 \subsection{Release process}
 Having all above, assume we have current initial semantic version on our main branch as \texttt{v0.1.0},
 and we must release upcoming version, our steps to perform are:
@@ -59,4 +63,3 @@ Entire process is shown on picture below
     \includegraphics[width=1\textwidth]{../img/GitLab_Flow}
     ~\caption{GitLab Flow diagram~\cite{GitLabFlow}.}
 \end{figure}
-\subsection{Hotfix strategy}
