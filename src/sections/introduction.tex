@@ -8,7 +8,7 @@ Below picture shows main idea of GitHub flow itself
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{img/GitHub_Flow}
-    ~\caption{GitHub Flow diagram.}
+    ~\caption{GitHub Flow diagram.}\label{fig:github-flow}
 \end{figure}
 \begin{itemize}
     \item \textbf{Master} -- branch that contains tested, validated and verified code, ready to be released.
@@ -27,7 +27,7 @@ Below picture shows main idea of GitHub flow itself
     It is used to patch production environment and must be released as quick as possible.
 \end{itemize}
 
-\subsection{Release process}
+\subsection{Release process}\label{subsec:release-process}
 Having all above, assume we have initial semantic version on our \texttt{master} branch as \texttt{v0.1.1},
 and we must release upcoming version, our steps to perform are:
 \begin{enumerate}
@@ -59,10 +59,10 @@ Entire release process is shown on the picture below
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{img/GitLab_Flow}
-    ~\caption{GitLab Flow diagram~\cite{GitLabFlow}.}
+    ~\caption{GitLab Flow diagram~\cite{GitLabFlow}.}\label{fig:gitlab-flow}
 \end{figure}
 
-\subsection{Hotfix strategy}
+\subsection{Hotfix strategy}\label{subsec:hotfix-strategy}
 Assume that our current released version of software product is \texttt{v0.2.0} and there is a critical bug appears.
 In order to release a hotfix the following set of steps to be executed:
 \begin{enumerate}
