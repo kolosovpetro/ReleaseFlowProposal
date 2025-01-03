@@ -20,10 +20,22 @@
 
 \numberwithin{equation}{section}
 
+% free foot note
+\let\svthefootnote\thefootnote
+\newcommand\freefootnote[1]{%
+    \let\thefootnote\relax%
+    \footnotetext{#1}%
+    \let\thefootnote\svthefootnote%
+}
+
+
 \title[Release Flow Proposal]
 {Release Flow Proposal}
 \author[Petro Kolosov]{Petro Kolosov}
+\address{Software Developer, DevOps Engineer}
 \email{kolosovp94@gmail.com}
+\urladdr{https://kolosovpetro.github.io}
+\date{\today}
 \keywords{
     Software engineering,
     DevOps,
@@ -36,9 +48,6 @@
     GitVersion,
     CI/CD
 }
-\urladdr{https://kolosovpetro.github.io}
-%\subjclass[2010]{26E70, 05A30}
-\date{\today}
 \hypersetup{
     pdftitle={Release Flow Proposal},
     pdfsubject={
@@ -75,6 +84,7 @@
     \maketitle
 
     \tableofcontents
+    \freefootnote{Sources: \url{https://github.com/kolosovpetro/ReleaseFlowProposal}}
 
 
     \section{Introduction} \label{sec:introduction}
@@ -86,5 +96,6 @@
 
     \bibliographystyle{unsrt}
     \bibliography{ReleaseFlowProposal}
+    \noindent \textbf{Version:} \input{sections/version}
 
 \end{document}
