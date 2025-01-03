@@ -1,40 +1,35 @@
 \begin{thebibliography}{1}
 
 \bibitem{SemanticVersioning}
-Semantic~Versioning docs.
-\newblock {Semantic Versioning 2.0.0}.
-\newblock Available electronically at \url {https://semver.org/}, 2023.
+{Semantic Versioning Docs}.
+\newblock {Semantic Versioning 2.0.0}, 2023.
+\newblock \url{https://semver.org/}.
 
 \bibitem{MainlineDevelopment}
-GitVersion docs.
-\newblock {Mainline Development}.
-\newblock Available electronically at \url
-  {https://gitversion.net/docs/reference/modes/mainline}, 2023.
+{GitVersion Docs}.
+\newblock {Mainline Development}, 2023.
+\newblock \url{https://gitversion.net/docs/reference/modes/mainline}.
 
 \bibitem{AdoptGitStrategy}
-Microsoft documentation.
-\newblock {Adopt a Git branching strategy}.
-\newblock Available electronically at \url
-  {https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops},
-  2022.
+{Microsoft Documentation}.
+\newblock {Adopt a Git branching strategy}, 2022.
+\newblock
+  \url{https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops}.
 
 \bibitem{CherryPick}
-Atlasian docs.
-\newblock {Git Cherry Pick}.
-\newblock Available electronically at \url
-  {https://www.atlassian.com/git/tutorials/cherry-pick}, 2023.
+{Atlasian Docs}.
+\newblock {Git Cherry Pick}, 2023.
+\newblock \url {https://www.atlassian.com/git/tutorials/cherry-pick}.
 
 \bibitem{AzurePipelinesTriggers}
-Microsoft documentation.
-\newblock {Build Azure Repos Git or TFS Git repositories}.
-\newblock Available electronically at \url
-  {https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/azure-repos-git?view=azure-devops&tabs=yaml},
-  2023.
+{Microsoft Documentation}.
+\newblock {Build Azure Repos Git or TFS Git repositories}, 2023.
+\newblock
+  \url{https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/azure-repos-git}.
 
 \bibitem{GitLabFlow}
-GitLab docs.
-\newblock {Introduction to GitLab Flow}.
-\newblock Available electronically at \url
-  {https://docs.gitlab.com/ee/topics/gitlab_flow.html}, 2023.
+{GitLab Docs}.
+\newblock {Introduction to GitLab Flow}, 2023.
+\newblock \url {https://docs.gitlab.com/ee/topics/gitlab_flow.html}.
 
 \end{thebibliography}
