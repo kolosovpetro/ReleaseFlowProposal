@@ -3,17 +3,14 @@ Main aim of this document is to present simple and working model of software rel
 using semantic versioning~\cite{SemanticVersioning}, azure pipelines,
 and mainline development~\cite{MainlineDevelopment}.
 Mainline development is also known as GitHub flow.
-Current document is motivated by Microsoft's ''Adopt a Git branching strategy'', see~\cite{AdoptGitStrategy}.
+Current document is motivated by Microsoft's
+\textit{Adopt a GIT branching strategy} available at~\cite{AdoptGitStrategy}.
 Below picture shows main idea of GitHub flow itself
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{img/GitHub_Flow}
-    ~\caption{GitHub Flow diagram.}\label{fig:github-flow}
-\end{figure}
+\input{sections/github-flow-diagram}
 \begin{itemize}
-    \item \textbf{Master} -- branch that contains tested, validated and verified code, ready to be released.
-    \item \textbf{Feature} -- branch that contains implementation of new feature according to sprint plan.
-    Feature is branched from the \texttt{master} HEAD\@.
+    \item \textbf{Master} -- branch that contains tested, validated and verified code, ready to be released and deployed to production.
+    \item \textbf{Feature} -- branch that contains implementation of a new feature according to sprint plan.
+    The \texttt{feature} branch is based onto \texttt{master}.
     \item \textbf{Bugfix} -- branch that contains non-critical bug fix.
     Bugfix is branched from the \texttt{master} HEAD\@.
     \item \textbf{Release/v*} -- branch that contains upcoming release state of software product.
@@ -56,11 +53,7 @@ and we must release upcoming version, our steps to perform are:
     \item Finally, \texttt{master} branch cherry-picks~\cite{CherryPick} from \texttt{release/v0.2.0} after deployment is complete.
 \end{enumerate}
 Entire release process is shown on the picture below
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{img/GitLab_Flow}
-    ~\caption{GitLab Flow diagram~\cite{GitLabFlow}.}\label{fig:gitlab-flow}
-\end{figure}
+\input{sections/gitlab-flow-diagram}
 
 \subsection{Hotfix strategy}\label{subsec:hotfix-strategy}
 Assume that our current released version of software product is \texttt{v0.2.0} and there is a critical bug appears.
@@ -68,7 +61,7 @@ In order to release a hotfix the following set of steps to be executed:
 \begin{enumerate}
     \item Hotfix to be assigned to a software engineer.
     \item Software engineer fixes critical bug and creates a pull request: \texttt{hotfix/id -> master}.
-    Yes, pull request is done to  the \texttt{master} branch.
+    Yes, pull request is done to the \texttt{master} branch.
     \item Pull request \texttt{hotfix/id -> master} is reviewed by team and merged.
     \item Release engineer cherry-picks~\cite{CherryPick} recently merged hotfix from the \texttt{master} branch
     to the \texttt{release/v0.2.0} branch.
