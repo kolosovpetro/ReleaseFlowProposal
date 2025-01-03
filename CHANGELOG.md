@@ -22,3 +22,5 @@ and this project adheres to [Semantic Versioning v2.0.0](https://semver.org/spec
 - Add image and section labels
 - Move images to separate files
 - Rename image
+- Update release process
+- Move release process to separate file
