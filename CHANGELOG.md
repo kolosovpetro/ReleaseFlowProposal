@@ -24,3 +24,5 @@ and this project adheres to [Semantic Versioning v2.0.0](https://semver.org/spec
 - Rename image
 - Update release process
 - Move release process to separate file
+- Update hotfix process
+- Update release process

@@ -27,9 +27,4 @@
 \newblock
   \url{https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/azure-repos-git}.
 
-\bibitem{GitLabFlow}
-{GitLab Docs}.
-\newblock {Introduction to GitLab Flow}, 2023.
-\newblock \url {https://docs.gitlab.com/ee/topics/gitlab_flow.html}.
-
 \end{thebibliography}
