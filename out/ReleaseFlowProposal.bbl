@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{SemanticVersioning}
+{Semantic Versioning Docs}.
+\newblock {Semantic Versioning 2.0.0}, 2023.
+\newblock \url{https://semver.org/}.
+
+\bibitem{MainlineDevelopment}
+{GitVersion Docs}.
+\newblock {Mainline Development}, 2023.
+\newblock \url{https://gitversion.net/docs/reference/modes/mainline}.
+
+\bibitem{AdoptGitStrategy}
+{Microsoft Documentation}.
+\newblock {Adopt a Git branching strategy}, 2022.
+\newblock
+  \url{https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops}.
+
+\bibitem{CherryPick}
+{Atlasian Docs}.
+\newblock {Git Cherry Pick}, 2023.
+\newblock \url {https://www.atlassian.com/git/tutorials/cherry-pick}.
+
+\bibitem{AzurePipelinesTriggers}
+{Microsoft Documentation}.
+\newblock {Build Azure Repos Git or TFS Git repositories}, 2023.
+\newblock
+  \url{https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/azure-repos-git}.
+
+\end{thebibliography}
